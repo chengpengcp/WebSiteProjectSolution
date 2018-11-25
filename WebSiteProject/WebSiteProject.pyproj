@@ -30,6 +30,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CWebSiteApp.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="manage.py" />
     <Compile Include="WebSiteApp\admin.py" />
     <Compile Include="WebSiteApp\apps.py" />
@@ -45,11 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="WebSiteApp\static\site.css" />
+    <Content Include="WebSiteApp\templates\WebSiteApp\about.html" />
     <Content Include="WebSiteApp\templates\WebSiteApp\index.html" />
+    <Content Include="WebSiteApp\templates\WebSiteApp\layout.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="WebSiteApp\" />
     <Folder Include="WebSiteApp\migrations\" />
+    <Folder Include="WebSiteApp\static\" />
     <Folder Include="WebSiteApp\templates\" />
     <Folder Include="WebSiteApp\templates\WebSiteApp\" />
     <Folder Include="WebSiteProject\" />

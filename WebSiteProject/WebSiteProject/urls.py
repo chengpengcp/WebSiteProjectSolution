@@ -9,4 +9,5 @@ import WebSiteApp.views
 urlpatterns = [
     url(r'^$', WebSiteApp.views.index, name='index'),
     url(r'^home$', WebSiteApp.views.index, name='home'),
+    url(r'^about$', WebSiteApp.views.about, name='about'),
 ]
