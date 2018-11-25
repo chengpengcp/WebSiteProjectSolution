@@ -31,6 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
+    <Compile Include="WebSiteApp\admin.py" />
+    <Compile Include="WebSiteApp\apps.py" />
+    <Compile Include="WebSiteApp\migrations\__init__.py" />
+    <Compile Include="WebSiteApp\models.py" />
+    <Compile Include="WebSiteApp\tests.py" />
+    <Compile Include="WebSiteApp\views.py" />
+    <Compile Include="WebSiteApp\__init__.py" />
     <Compile Include="WebSiteProject\__init__.py" />
     <Compile Include="WebSiteProject\settings.py" />
     <Compile Include="WebSiteProject\urls.py" />
@@ -38,8 +45,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="WebSiteApp\templates\WebSiteApp\index.html" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="WebSiteApp\" />
+    <Folder Include="WebSiteApp\migrations\" />
+    <Folder Include="WebSiteApp\templates\" />
+    <Folder Include="WebSiteApp\templates\WebSiteApp\" />
     <Folder Include="WebSiteProject\" />
   </ItemGroup>
   <ItemGroup>
