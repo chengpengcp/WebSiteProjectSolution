@@ -51,6 +51,7 @@
     <Content Include="WebSiteApp\static\site.css" />
     <Content Include="WebSiteApp\templates\WebSiteApp\about.html" />
     <Content Include="WebSiteApp\templates\WebSiteApp\index.html" />
+    <Content Include="WebSiteApp\templates\WebSiteApp\Info_public.html" />
     <Content Include="WebSiteApp\templates\WebSiteApp\layout.html" />
   </ItemGroup>
   <ItemGroup>

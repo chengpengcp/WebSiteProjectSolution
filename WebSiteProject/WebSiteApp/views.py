@@ -9,11 +9,10 @@ def index(request):
 
     return render(
         request,
-        "WebsiteApp/index.html",  # Relative path from the 'templates' folder to the template file
-        # "index.html", # Use this code for VS 2017 15.7 and earlier
+        "WebsiteApp/index.html",  
         {
-            'title' : "Website",
-            'message' : "Hello Django!",
+            'title' : "芜湖枚举电子科技有限公司",
+            'message' : "欢迎来到芜湖枚举电子科技有限公司",
             'content' : " on " + now.strftime("%A, %d %B, %Y at %X")
         }
     )
@@ -23,7 +22,17 @@ def about(request):
         request,
         "WebSiteApp/about.html",
         {
-            'title' : "About HelloDjangoApp",
-            'content' : "Example app page for Django."
+            'title' : "关于枚举电子信息网",
+            'content' : "主编是"+ "程鹏"
+        }
+    )
+
+
+def Info_public(request):
+    return render(
+        request,
+        "WebSiteApp/Info_public.html",
+        {
+        
         }
     )
